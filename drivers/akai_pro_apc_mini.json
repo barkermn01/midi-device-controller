@@ -1,0 +1,19 @@
+{
+    "events" : {
+        "button_down":144,
+        "button_up":128,
+        "slider_update": 176
+    },
+    "colors" : {
+        "off":"00",
+        "green": "01",
+        "flash_green": "04",
+        "red": "03",
+        "flash_red": "04",
+        "yellow": "05",
+        "flash_yellow": "06"
+    },
+    "actions":{
+        "set_color":"90"
+    }
+}

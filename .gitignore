@@ -1,0 +1,11 @@
+# block vs code directories
+.vscode/
+/.vscode/
+
+#block node modules
+node_modules/
+/node_modules/
+
+#block npm/yarn lock file
+yarn.lock
+package.lock

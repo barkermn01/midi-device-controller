@@ -4,7 +4,7 @@
   "description": "Provides a clean and easy method for node.js to control midi devices with support for drivers",
   "main": "index.js",
   "author": "Martin Barker",
-  "license": "GPL-3.0",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "midi": "^1.0.0"
   },

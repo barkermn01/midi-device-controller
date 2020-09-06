@@ -7,6 +7,13 @@ This package provides the start of an an easy to use interface for handling midi
 # Driver Files
 This plugin as it stands only ships with a driver for the AKAI APC mini, if you have another device you would like to support you will just need to create a driver file and load it apporiatly.
 
+## Adding a Driver
+I'm more than happy to work with anyone who wishes to add a driver to this repo, if you have a device you would like supported you can submit a pull request with the file, if your unsure how to create a driver file for your device open an issue and i will provide my tools to make it eaiser and work with you to make the driver.
+
+I'm more than aware that as other midi devices get added the controller will need to do more, such as a device that supports setting a slider possition. or sending tones to another device however without the hardware to test and build with i'm unable to do so. hence why i will work with people to get more devices supported.
+
+Device Manufactures are more than welcome to add support for there devices. via Pull Requests but note this project is BSD-3-Clause using it in your software is fine so long as Lisence is provided with the software.
+
 ```json
 {
     "events" : {
@@ -161,3 +168,16 @@ Provides object of `color_name = color_hex_code`
 ```js
 device.getAllSupportedColors(); // returns HEX code 03
 ```
+
+# License 
+Copyright 2020 Martin Barker
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

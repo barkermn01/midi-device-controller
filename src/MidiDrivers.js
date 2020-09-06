@@ -24,6 +24,10 @@ class MidiDriver{
         };
     }
 
+    getAllSupportedEvents(){
+        return this.#data.events;
+    }
+
     getEventType(code){
         return this.#evts[code];
     }
@@ -34,6 +38,10 @@ class MidiDriver{
 
     getColor(name){
         return this.#data.colors[name];
+    }
+
+    getAllSupportedColors(){
+        return this.#data.colors;
     }
 }
 

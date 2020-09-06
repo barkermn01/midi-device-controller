@@ -1,6 +1,6 @@
 {
   "name": "midi-device-controller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides a clean and easy method for node.js to control midi devices with support for drivers",
   "main": "index.js",
   "author": "Martin Barker",

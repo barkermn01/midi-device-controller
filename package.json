@@ -10,5 +10,10 @@
   },
   "scripts": {
     "test": "node test.js"
-  }
+  },
+  "homepage": "https://github.com/barkermn01/midi-device-controller",
+  "bugs": {
+    "url": "https://github.com/barkermn01/midi-device-controller/issues"
+  },
+  "contributors":[]
 }
